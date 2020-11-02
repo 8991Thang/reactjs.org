@@ -153,7 +153,9 @@ class SignUpDialog extends React.Component {
 
   handleChange(e) {
     this.setState({login: e.target.value});
+    console.log("Hello Word From VN !!);
   }
+  
 
   handleSignUp() {
     alert(`Welcome aboard, ${this.state.login}!`);
